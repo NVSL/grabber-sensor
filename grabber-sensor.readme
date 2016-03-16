@@ -1,0 +1,39 @@
+README for gadget: Gadget Name
+
+Components:
+	brain:	Adafruit-Pro-Trinket-5V-battery-powered
+	battery:	battery-9V-vertical
+	distanceSensor:	analog_distance_sensor
+	caster:	ball-caster-0.75in
+	Servo:	servo-normal-side
+	Pincer:	micro-gripper
+	button:	tactile-button-round-yellow
+	drive:	dual-motor-kit-knobby
+	bump:	bump-switch-medium-left
+	bump_2:	bump-switch-medium-right
+
+Connections:
+	(brain.D3_0_brain, Servo.DATA_4_Servo)
+	(brain.D5_0_brain, Pincer.DATA_5_Pincer)
+	(brain.D6_0_brain, drive.PWMA_7_drive)
+	(brain.D9_0_brain, drive.PWMB_7_drive)
+	(brain.D4_0_brain, button.SENSE_6_button)
+	(brain.D8_0_brain, drive.STBY_7_drive)
+	(brain.D10_0_brain, drive.AIN1_7_drive)
+	(brain.D11_0_brain, drive.AIN2_7_drive)
+	(brain.D12_0_brain, drive.BIN1_7_drive)
+	(brain.D13_0_brain, drive.BIN2_7_drive)
+	(brain.A0_0_brain, bump.SENSE_8_bump)
+	(brain.A1_0_brain, bump_2.SENSE_9_bump_2)
+	(brain.A2_0_brain, distanceSensor.A_2_distanceSensor)
+	[brain.+5V_0_brain, drive.VCC_7_drive, distanceSensor.VCC_2_distanceSensor]
+	[battery.POS_1_battery, Servo.VCC_4_Servo, drive.VM_7_drive, Pincer.VCC_5_Pincer, brain.VBAT_0_brain]
+	[brain.GND_0_brain, brain.GND1_0_brain, distanceSensor.GND_2_distanceSensor, Servo.GND_4_Servo, bump.GND_8_bump, battery.NEG_1_battery, Pincer.GND_5_Pincer, brain.GND2_0_brain, drive.GND_7_drive, bump_2.GND_9_bump_2, button.GND_6_button]
+
+Power plan:
+	brain.+5V_out provides power to drive.VCC
+	brain.+5V_out provides power to distanceSensor.CONTROL
+	battery.+9V_out provides power to Servo.VCC
+	battery.+9V_out provides power to Pincer.VCC
+	battery.+9V_out provides power to brain.+VBat
+	battery.+9V_out provides power to drive.VM

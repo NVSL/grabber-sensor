@@ -1,0 +1,31 @@
+Part Name,Price pack,Parts per pack,Count Required,Count Optional,Packs Required Only,Packs Required+Optional,Total Price Required Only,Total Price Required+Optional,Supplier,Part Number,URL
+"CONN HEADER 12POS STR .230"" GOLD",$0.96,1,2,0,2,2,$1.92,$1.92,Digikey,3M11925-ND,http://www.digikey.com/product-search/en?keywords=3M11925-ND
+Bump Switch,$2.16,1,1,0,1,1,$2.16,$2.16,Digikey,SW843-ND,http://www.digikey.com/product-search/en?keywords=SW843-ND
+USB microB Cable - 6 Foot,$4.95,1,1,0,1,1,$4.95,$4.95,Sparkfun,10215,http://www.sparkfun.com/products/10215
+"Hobby Gearmotor -  65 RPM (Right Angle, Pair)",$3.95,1,2,0,2,2,$7.9,$7.9,Sparkfun,13258,http://www.sparkfun.com/products/13258
+Micro Gripper Kit A - Straight Mount,$5.95,1,1,0,1,1,$5.95,$5.95,SparkFun,13176,http://www.sparkfun.com/products/13176
+Servo,$5.85,1,1,0,1,1,$5.85,$5.85,SolarBotics,25500,https://solarbotics.com/product/25500
+HXT900 9g / 1.6kg / .12sec Micro Servo,$5.85,1,1,0,1,1,$5.85,$5.85,SolarBotics,25500,https://solarbotics.com/product/25500
+CONN PC VERT 9V SNAP-ON,$1.12,1,1,0,1,1,$1.12,$1.12,Digikey,36-968-ND,http://www.digikey.com/product-search/en?keywords=36-968-ND
+Analog Distance Sensor 2-15cm,$7.95,1,1,0,1,1,$7.95,$7.95,Pololu,2450,http://www.pololu.com/product/2450
+"Metric Pan Head Phillips Machine Screw Zinc-Plated Steel, M2.5 Size, 8mm Length, .45mm Pitch",$4.13,100,8,0,1,1,$4.13,$4.13,mcmaster,92005A069,http://www.mcmaster.com/#92005A069
+"Class 04 Steel Thin Hex Nut - DIN 439B Zinc Plated, M2.5x0.45 Thread Size, 5mm Wide, 1.6mm High",$6.84,100,8,0,1,1,$6.84,$6.84,mcmaster,90695A031,http://www.mcmaster.com/#90695A031
+Hook-up Stranded Wire - Red (22 AWG),$2.95,1,2,0,2,2,$5.9,$5.9,Sparkfun,8865,http://www.sparkfun.com/products/8865
+Hook-up Stranded Wire - Black (22 AWG),$2.95,1,2,0,2,2,$5.9,$5.9,Sparkfun,8867,http://www.sparkfun.com/products/8867
+"Phillips Thread-Forming Screw for Plastic Zinc-Plated Steel, 4-20 Thread, 1/2"" Length",$7.21,100,4,0,1,1,$7.21,$7.21,mcmaster,90380A110,http://www.mcmaster.com/#90380A110
+SparkFun Motor Driver - Dual TB6612FNG (1A),$8.95,1,1,0,1,1,$8.95,$8.95,Sparkfun,9457,http://www.sparkfun.com/products/9457
+CONN HEADER VERT SGL 3POS GOLD,$0.26,1,1,0,1,1,$0.26,$0.26,Digikey,3M9448-ND,http://www.digikey.com/product-search/en?keywords=3M9448-ND
+"Wheel - 65mm (Rubber Tire, Pair)",$2.95,1,2,0,2,2,$5.9,$5.9,Sparkfun,13259,http://www.sparkfun.com/products/13259
+"12 Position Header Connector 0.100"" (2.54mm) Through Hole Tin",$0.98,1,0,2,0,2,$0.0,$1.96,Digikey,S6100-ND,http://www.digikey.com/product-search/en?keywords=S6100-ND
+CONN HEADER VERT SGL 8POS GOLD,$0.58,1,2,0,2,2,$1.16,$1.16,Digikey,3M9452-ND,http://www.digikey.com/product-search/en?keywords=3M9452-ND
+Bump Switch,$2.27,1,1,0,1,1,$2.27,$2.27,Digikey,SW842-ND,http://www.digikey.com/product-search/en?keywords=SW842-ND
+3-Pin Female JST ZH-Style Cable (30cm) for Sharp GP2Y0A51 Distance Sensors,$0.99,1,1,0,1,1,$0.99,$0.99,Pololu,2411,http://www.pololu.com/product/2411
+Ball Caster,$4.95,1,1,0,1,1,$4.95,$4.95,Adafruit,1200,http://adafru.it/1200
+"Solarbotics GMB28 (GM2/GM8 Gear Motor Bracket, Laser-Cut Steel)",$1.49,1,2,0,2,2,$2.98,$2.98,Pololu,602,http://www.pololu.com/product/602
+"8 Position Header Connector 0.100"" (2.54mm) Through Hole Tin",$0.86,1,0,2,0,2,$0.0,$1.72,Digikey,S7006-ND,http://www.digikey.com/product-search/en?keywords=S7006-ND
+Adafruit Pro Trinket - 5V 16MHz,$9.95,1,1,0,1,1,$9.95,$9.95,Adafruit,2000,http://adafru.it/2000
+Colorful Tactile Button,$5.95,15,1,0,1,1,$5.95,$5.95,Adafruit,1009,http://adafru.it/1009
+BATTERY ALKALINE 9V,$2.38,1,1,0,1,1,$2.38,$2.38,Digikey,N145-ND,http://www.digikey.com/product-search/en?keywords=N145-ND
+""
+Total Cost (required only): ,$119.37
+Total Cost (everything): ,$123.05
