@@ -12,6 +12,7 @@
 |** ------------------------------ Libraries ------------------------------ **|
 \** ======================================================================= **/
 
+#include "GadgetManager.h"
 #include "ServoMotor.h"
 #include "MomentaryButton.h"
 #include "PinChangeInt.h"
@@ -51,7 +52,6 @@ MomentaryButton mainButton(MOMENTARYBUTTON1_SENSE);
 Motor motors(MOTOR1_STBY, MOTOR1_PWMA, MOTOR1_AIN1, MOTOR1_AIN2, MOTOR1_PWMB, MOTOR1_BIN1, MOTOR1_BIN2);
 MomentaryButton bumpSensor1(MOMENTARYBUTTON2_SENSE);
 MomentaryButton bumpSensor2(MOMENTARYBUTTON3_SENSE);
-LED led(13);
 
 /** ======================================================================= **\
 |** --------------------------- Setup Function ---------------------------- **|
@@ -71,6 +71,8 @@ void setup() {
    motors.setup();
    bumpSensor1.setup();
    bumpSensor2.setup();
+   // This prepares your code for debugging! Check out our guide on Serial
+   // communication to learn more: https://goo.gl/fZadVH
    Serial.begin(9600);
 }
 
@@ -87,19 +89,19 @@ void setup() {
 \** ======================================================================= **/
 
 void loop() {
-  if( bumpSensor1.isPressed() || bumpSensor2.isPressed()) 
-    led.turnOn();
-  else
-    led.turnOff();
-  if( mainButton.isPressed() ) {
-    servo.rotate(0);
-    //motors.forward();
+  if( bumpSensor1.isPressed() || bumpSensor2.isPressed()) {
+    pincers.close();
+  } else {
     pincers.open();
   }
-  else {
-    servo.rotate(180);
-    //motors.stop();
-    pincers.close();
+  if( mainButton.isPressed() ) {
+    //servo.rotate(0);
+    motors.forward();
+    
+  } else {
+    //servo.rotate(180);
+    motors.stop();
+    
   }
   Serial.print("Distance Sensor Readings: ");
   Serial.print( distanceSensor.get_distance() );
